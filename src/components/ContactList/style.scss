@@ -1,0 +1,16 @@
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+
+  .contact {
+    //display: grid;
+    //grid-template-columns: 1fr 100px;
+    list-style: inside;
+    &__delete-button {
+      margin-left: 15px;
+
+    }
+  }
+}
