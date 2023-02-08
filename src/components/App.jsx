@@ -8,7 +8,7 @@ import Filter from "../components/Filter";
 
 import './App.scss';
 
-export class App extends React.Component {
+export default class App extends React.Component {
   state = {
     contacts: [
       {id: 'id-1', name: 'Rosie Simpson', number: '459-12-56'},
