@@ -3,10 +3,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  min-width: 400px;
 
   .contact {
-    //display: grid;
-    //grid-template-columns: 1fr 100px;
     list-style: inside;
     &__delete-button {
       margin-left: 15px;

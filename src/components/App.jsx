@@ -2,11 +2,11 @@ import React from "react";
 
 import { nanoid } from "nanoid";
 
-import ContactList from "../ContactList";
-import { ContactForm } from "../ContactForm";
-import Filter from "../Filter";
+import ContactList from "../components/ContactList";
+import { ContactForm } from "../components/ContactForm";
+import Filter from "../components/Filter";
 
-import './style.scss';
+import './App.scss';
 
 export class App extends React.Component {
   state = {
